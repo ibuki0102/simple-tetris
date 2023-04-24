@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.overlay {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+}
+p {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.speed-container {
+  margin-bottom: 20px;
+}
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border: 2px solid gray;
+}
+
+.grid div {
+  height: 18px;
+  width: 18px;
+  /* background-color: tomato; */
+  border: 1px solid white;
+}
+
+.start-button {
+  margin-bottom: 20px;
+}
+.tetromino {
+  background-color: fuchsia;
+  border: 1px solid white;
+}
+
+.mini-grid {
+  margin-left: 20px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border: 2px solid gray;
+}
+.mini-grid div {
+  border: 1px solid white;
+  height: 18px;
+  width: 18px;
+}
+.taken {
+  border-top: 2px solid gray;
+}
+button {
+  width: 90px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+  cursor: pointer;
+}
